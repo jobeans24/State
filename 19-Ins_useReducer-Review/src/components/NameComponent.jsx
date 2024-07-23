@@ -29,6 +29,17 @@ export default function ThemeComponent() {
     dispatch({
       type: SUBMIT,
     });
+    //what is the dispatch function doing?
+    /* the dispatch function is used to update the state value by passing
+    an action object to the reducer function. */
+    //what reducer function is being called?
+    /* the reducer function that is being called is the reducer function
+    that is imported from the reducers.js file. */
+    // where does the flow go next?
+    /* the flow goes next to the reducer function, which takes the current state
+    value and the action object as arguments, and returns a new state value based
+    on the action type and payload. */ 
+
   };
 
   return (
